@@ -1,0 +1,21 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "user.js",
+  "scripts": {
+    "start": "node user.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^1.20.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3"
+  }
+}
